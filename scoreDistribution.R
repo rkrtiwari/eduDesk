@@ -37,7 +37,7 @@ bpoints <- seq(from= 0, to = 50, by =5)
 hist(marks, breaks = bpoints, right = FALSE)
 axis(side = 2, at = 0:17)
 ind <- which(names(marks)=='s42') # adding score of student named s42
-abline(v=marks[42], col = 'red', lw = 2)  # a line is added to student s42 score
+abline(v=marks[ind], col = 'red', lw = 2)  # a line is added to student s42 score
 
 
 
